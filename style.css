@@ -1,0 +1,276 @@
+body{
+    margin:0px;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+.star1{
+    position: fixed;
+    top:0.9em;
+    right:0.2em;
+    left: 5em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star2{
+    position: fixed;
+    top:5em;
+    right: 3em;
+    left: 2em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star3{
+    position: fixed;
+    top:8em;
+    right:0.2em;
+    left: 5em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star4{
+    position: fixed;
+    top:9em;
+    right:em;
+    left: em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star5{
+    position: fixed;
+    top:20em;
+    right:0.2em;
+    left: 9em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star6{
+    position: fixed;
+    top:30em;
+    right:0.2em;
+    left: 30em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star7{
+    position: fixed;
+    top:20em;
+    right:0.2em;
+    left: 60em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star8{
+    position: fixed;
+    top:35em;
+    right:0.2em;
+    left: 5em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star9{
+    position: fixed;
+    top:14em;
+    right:0.2em;
+    left: 11em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star10{
+    position: fixed;
+    top:20em;
+    right:0.2em;
+    left: 26em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star11{
+    position: fixed;
+    top:2em;
+    right:0.2em;
+    left: 60em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star12{
+    position: fixed;
+    top:7em;
+    right:0.2em;
+    left: 20em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star13{
+    position: fixed;
+    top:34em;
+    right:0.2em;
+    left: 55em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star14{
+    position: fixed;
+    top:32em;
+    right:0.2em;
+    left: 70em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star15{
+    position: fixed;
+    top:8em;
+    right:0.2em;
+    left: 70em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star16{
+    position: fixed;
+    top:10em;
+    right:0.2em;
+    left: 80em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star17{
+    position: fixed;
+    top:18em;
+    right:0.2em;
+    left: 68em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star18{
+    position: fixed;
+    top:30em;
+    right:em;
+    left: 20em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star19{
+    position: fixed;
+    top:30em;
+    right:0.2em;
+    left: 60em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+.star20{
+    position: fixed;
+    top:32em;
+    right:em;
+    left: em;
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.container{
+    font-size: 10px;
+    width: 40em;
+    height:40em;
+    position: relative;
+}
+.sun {
+    position: absolute;
+    top: 15em;
+    left: 15em;
+    width: 10em;
+    height: 10em;
+    background-color: rgb(255, 251, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 3em rgb(230, 150, 150); 
+}
+
+.earth, .moon {
+    position: absolute;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    border-width: 0.1em 0.1em 0 0;
+    border-radius: 50%;
+}
+
+.earth{
+    top: 5em;
+    left:5em;
+    width: 30em;
+    height:30em;
+    animation: orbit 36.5s
+    linear infinite;
+}
+.moon{
+    top:0;
+    right:0;
+    width:8em;
+    height:8em;
+    animation: orbit 2.7s
+    linear infinite;
+}
+.earth::before,
+.moon::before{
+    content:'';
+    position: absolute;
+    border-radius: 50%;
+}
+.earth::before{
+    top:2.8em;
+    right:2.8em;
+    width:3em;
+    height:3em;
+    background-color: aqua;
+}
+.moon::before{
+    top:0.8em;
+    right:0.2em;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: silver;
+}
+@keyframes orbit{
+    to{
+        transform: rotate(360deg);
+    }
+}
